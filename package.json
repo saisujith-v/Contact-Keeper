@@ -4,7 +4,7 @@
   "description": "Contact manager app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "serve -s build",
     "index": "nodemon index.js",
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
@@ -25,6 +25,7 @@
     "nexmo": "^2.7.0",
     "nodemailer": "^6.4.8",
     "qrcode": "^1.4.4",
+    "serve": "^12.0.0",
     "uuid": "^8.2.0"
   },
   "devDependencies": {
